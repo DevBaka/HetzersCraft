@@ -1,0 +1,19 @@
+{
+  "botania:stripped_dreamwood": [
+    {
+      "explosionPower": 0.0,
+      "roundingType": "STANDARD",
+      "requiredHits": 3.0,
+      "explosionChance": 0.0,
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeId": "botania:stripped_dreamwood",
+        "returnAmount": {
+          "min": 30.0,
+          "max": 70.0
+        }
+      }
+    }
+  ]
+}

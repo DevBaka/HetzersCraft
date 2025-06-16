@@ -1,0 +1,28 @@
+
+[beeBox]
+	#Set the range for the bee box to look for flowers.
+	#Range: 0 ~ 18
+	flowerRange = 4
+	#Set the process time for the bee box to update. Default is once a minute.
+	#Range: 200 ~ 1728000
+	maxProcessingTime = 1200
+	#Set the percentage chance to increment bee population in the Bee Box.
+	#Range: 1 ~ 100
+	chanceBeeIncrement = 33
+	#Set the percentage chance to replicate a flower near by.
+	#Range: 1 ~ 100
+	chanceReplicateFlower = 10
+	#Set to false to disable flower replication by the bee box
+	replicateFlowers = true
+	#Set the percentage of the area to be filled with replicated flowers.
+	#Range: 1 ~ 100
+	flowerReplicationAreaPercent = 100
+
+[_master_switch_]
+	#In case master-switch is turned off, this exception allows you to still make mead from vanilla honeycombs.
+	feature_exception_beverages = true
+	#This master-switch lets you disable the entire Apiary module - bees-as-items and bee boxes, colored wax, flower duplication. Since Minecraft includes bees as of 1.15, we actually expect you to disable this module.
+	module_enabled = true
+	#In case master-switch is turned off, this exception allows you to still make wax (uncolored kind), as it is usable in milk module (not essential, though).
+	feature_exception_basic_wax = false
+

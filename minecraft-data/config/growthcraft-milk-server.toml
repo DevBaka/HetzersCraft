@@ -1,0 +1,37 @@
+
+[_master_switch_]
+	#In case master-switch is turned off, this exception allows you to still make beverages from this module's fluids.
+	feature_exception_beverages = true
+	#This master-switch lets you disable the entire Rice module - seeds dropping from grass, farming tool and products.
+	module_enabled = true
+
+[churn]
+	#Set to true to allow users to access the Churn GUI.
+	guiEnabled = true
+
+[pancheon]
+	#Set to true to allow users to access the Pancheon GUI.
+	guiEnabled = true
+
+[loot_modifiers]
+	#Set to true to enable looting of stomach from cows.
+	stomachLootEnabled = true
+	#Chance to loot a stomach from a cow. stomachLootEnabled must be set to true.
+	#Range: 0 ~ 100
+	stomachLootChance = 5
+
+[mixing_vat]
+	#Set to true to allow users to access the Mixing Vat GUI.
+	guiEnabled = true
+	#Set to true to add additional logging to debug the missing vat.
+	debugEnabled = false
+	#Set to true to allow users to access the Mixing Vat GUI.
+	consumeMixingVatActivator = false
+
+[cheese]
+	#Set to true to add additional logging to debug the cheese wheel and curds blocks.
+	debugEnabled = false
+	#Amount of random ticks it takes, for a cheese wheel to age. One random tick happens every ~1min.
+	#Range: 0 ~ 240
+	cheeseAgeTime = 60
+

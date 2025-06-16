@@ -1,0 +1,19 @@
+{
+  "endergetic:stripped_poise_stem": [
+    {
+      "explosionPower": 0.0,
+      "roundingType": "STANDARD",
+      "requiredHits": 3.0,
+      "explosionChance": 0.0,
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeId": "endergetic:stripped_poise_stem",
+        "returnAmount": {
+          "min": 30.0,
+          "max": 70.0
+        }
+      }
+    }
+  ]
+}

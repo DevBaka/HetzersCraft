@@ -1,0 +1,16 @@
+services:
+  forge:
+    image: itzg/minecraft-server:latest
+    container_name: forge-server
+    ports:
+      - "25565:25565"
+      - "8123:8123"
+    environment:
+      EULA: "TRUE"
+      VERSION: "1.20.1"
+      TYPE: "FORGE"
+      FORGE_VERSION: "47.4.0"   # Forge-Version passend zu 1.20.1
+      MEMORY: "4G"
+    volumes:
+      - ./minecraft-data:/data
+    restart: unless-stopped
