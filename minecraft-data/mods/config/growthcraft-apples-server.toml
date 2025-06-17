@@ -1,0 +1,13 @@
+
+[_master_switch_]
+	#This master-switch lets you disable the Apples module - currently just apple trees and wooden blocks. Apples themselves or apple cider are not affected.
+	module_enabled = true
+
+[apple]
+	#amount of apples that can grow in a given area. Default: 2, Range 1-10
+	#Range: 1 ~ 10
+	maxAppleInArea = 2
+	#Size of area, in which apples can grow on an apple tree. Default: 3 Range 1-10
+	#Range: 1 ~ 10
+	appleCheckArea = 3
+

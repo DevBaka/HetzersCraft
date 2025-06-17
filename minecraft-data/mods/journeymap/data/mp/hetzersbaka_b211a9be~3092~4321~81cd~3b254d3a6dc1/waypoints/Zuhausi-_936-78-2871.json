@@ -1,0 +1,22 @@
+{
+  "id": "Zuhausi-_936-78-2871",
+  "name": "Zuhausi²",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--15075645-waypoint-icon.png",
+  "x": 936,
+  "y": 78,
+  "z": 2871,
+  "r": 25,
+  "g": 246,
+  "b": 195,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -15075645,
+  "customIconColor": false
+}

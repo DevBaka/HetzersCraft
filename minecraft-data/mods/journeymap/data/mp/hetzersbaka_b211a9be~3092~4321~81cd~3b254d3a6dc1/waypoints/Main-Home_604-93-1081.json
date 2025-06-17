@@ -1,0 +1,24 @@
+{
+  "id": "Main-Home_604-93-1081",
+  "name": "Main Home",
+  "groupName": ":Waystones",
+  "displayId": "c66b113b-f243-41db-b451-67dc3833af11",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1-waypoint-icon.png",
+  "x": 604,
+  "y": 93,
+  "z": 1081,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "waystones",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

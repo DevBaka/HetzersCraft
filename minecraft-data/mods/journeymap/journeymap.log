@@ -1,0 +1,480 @@
+[21:08:12] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[21:08:12] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[21:08:12] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[21:08:12] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[21:08:12] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.mysticdrew.journeymapteams.client.JourneyMapClientPlugin
+[21:08:12] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapIntegration
+[21:08:12] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.10.3, built with forge 1.20.1-47.2.30
+forge: 47.4.0
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+	MapBiome : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.10.3, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.10.3, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.10.3, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=false, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.10.3, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.10.3, port=8123, enabled=true}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.10.3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.10.3, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.10.3, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
+[21:08:12] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 169.91ms
+[21:08:18] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[21:08:18] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[21:08:18] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 235.12ms
+[21:08:29] [Netty Client IO #1/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[21:08:58] [Render thread/INFO] [JourneymapClient] World UID is set to: b211a9be-3092-4321-81cd-3b254d3a6dc1
+[21:08:59] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[21:09:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/circus.png
+[21:09:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_2.png
+[21:09:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/sea_pancake.png
+[21:09:00] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:09:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_1.png
+[21:09:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/forkfish.png
+[21:09:00] [Render thread/INFO] [WaypointStore] Loaded 13 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[21:09:00] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\overworld. Memory: 4096MB total, 1097MB free 
+[21:09:00] [Render thread/INFO] [WaypointGroupStore] Loaded WaypointGroups file C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints\waypoint_groups.json
+[21:09:00] [Render thread/INFO] [ChatLog] JourneyMap: Press [J] or open browser to http://localhost:8123 
+[21:09:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/picklefish.png
+[21:09:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[21:09:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[21:11:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[21:11:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[21:11:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cachalot/cachalot_whale.png
+[21:12:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for rediscovered:textures/entity_icon/fish.png
+[21:15:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/spoon_shark.png
+[21:15:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/circus.png
+[21:15:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/spoon_shark.png
+[21:15:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for rediscovered:textures/entity_icon/fish.png
+[21:15:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[21:15:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/forkfish.png
+[21:15:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/picklefish.png
+[21:15:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_1.png
+[21:15:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_2.png
+[21:15:45] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:15:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[21:16:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[21:16:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_5.png
+[21:16:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[21:17:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_15.png
+[21:17:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_14.png
+[21:17:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/triple_twirl_pleco.png
+[21:17:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_10.png
+[21:17:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[21:17:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_4.png
+[21:17:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_1.png
+[21:18:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/blackcap_snail.png
+[21:19:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_7.png
+[21:20:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/blue_jay.png
+[21:20:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[21:20:27] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:20:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_2.png
+[21:20:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_1.png
+[21:20:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[21:20:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/blue_jay.png
+[21:20:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/spoon_shark.png
+[21:20:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[21:20:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/forkfish.png
+[21:20:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/circus.png
+[21:20:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[21:20:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[21:21:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
+[21:21:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/kingfisher/kingfisher_common.png
+[21:22:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/ghost/ghost_blue.png
+[21:22:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/ghost/ghost_white.png
+[21:22:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/hummingbird/hummingbird_yellow.png
+[21:22:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/ghost/ghost_green.png
+[21:22:42] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=-1127, y=64, z=1733}. Deathpoints enabled: true. Deathpoint created: true
+[21:22:51] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_4_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:22:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/cardinal/cardinal_northern_female.png
+[21:23:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/ripper.png
+[21:23:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/blackcap_snail.png
+[21:23:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[21:23:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/triple_twirl_pleco.png
+[21:24:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[21:24:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/triple_twirl_pleco.png
+[21:24:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[21:24:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/hummingbird/hummingbird_yellow.png
+[21:24:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/blackcap_snail.png
+[21:24:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[21:24:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/ripper.png
+[21:24:49] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:24:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[21:25:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bass.png
+[21:25:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/blue_jay.png
+[21:25:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/forkfish.png
+[21:25:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_1.png
+[21:25:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/circus.png
+[21:25:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/picklefish.png
+[21:25:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_2.png
+[21:27:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_4.png
+[21:27:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_10.png
+[21:27:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_14.png
+[21:27:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_6.png
+[21:27:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_5.png
+[21:28:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_11.png
+[21:28:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_15.png
+[21:28:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_3.png
+[21:28:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_8.png
+[21:28:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_2.png
+[21:28:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_7.png
+[21:28:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_1.png
+[21:29:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/jungleshark.png
+[21:30:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_12.png
+[21:31:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
+[21:31:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/blue_jay.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_14.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_8.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/jungleshark.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_4.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_12.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_2.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_11.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/ripper.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[21:31:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[21:31:15] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=-1130, y=64, z=1642}. Deathpoints enabled: true. Deathpoint created: true
+[21:31:21] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_4_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:31:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/cardinal/cardinal_northern_female.png
+[21:31:24] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:31:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/circus.png
+[21:31:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/spoon_shark.png
+[21:31:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for rediscovered:textures/entity_icon/fish.png
+[21:31:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/forkfish.png
+[21:31:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_1.png
+[21:31:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_2.png
+[21:31:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[21:31:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/picklefish.png
+[21:32:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_green.png
+[21:32:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/blackcap_snail.png
+[21:33:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_1.png
+[21:33:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_5.png
+[21:33:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_13.png
+[21:33:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_3.png
+[21:33:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_15.png
+[21:33:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_6.png
+[21:33:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_9.png
+[21:34:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/freshwater_mantis.png
+[21:35:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/kingfisher/kingfisher_common.png
+[21:37:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/magpie/magpie_eurasian.png
+[21:38:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/triple_twirl_pleco.png
+[21:39:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/bluejay.png
+[21:39:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/pigeon/pigeon_common.png
+[21:39:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/robin/robin_european.png
+[21:40:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/lizard/green.png
+[21:40:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/hummingbird/hummingbird_yellow.png
+[21:40:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/lyrebird/lyrebird_superb_female.png
+[21:40:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/lizard/brown.png
+[21:41:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/catfish_medium.png
+[21:42:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for sfl:textures/entity_icon/mimic_dark_oak.png
+[21:43:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_10.png
+[21:44:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_1.png
+[21:44:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/eyelash_fish/eyelash_fish_4.png
+[21:44:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_1.png
+[21:44:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/circus.png
+[21:44:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[21:44:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
+[21:44:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/blue_jay.png
+[21:44:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/copperflame_anthias/copperflame_2.png
+[21:44:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[21:45:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/forkfish.png
+[21:46:01] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_2_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:46:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/squirrel.png
+[21:46:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for supplementaries:textures/entity_icon/misc/red_merchant.png
+[21:46:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for environmental:textures/entity_icon/tapir/tapir.png
+[21:46:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/peafowl/peafowl_indian_female.png
+[21:46:01] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_3_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:46:07] [Render thread/WARN] [JMLogger] humancompanions:textures/entities/male/cyrus.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:46:07] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_1_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:46:49] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_8_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:46:49] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_9_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:48:18] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/ronin_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:50:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for environmental:textures/entity_icon/tapir/tapir.png
+[21:50:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/peafowl/peafowl_indian_female.png
+[21:50:41] [Render thread/WARN] [JMLogger] humancompanions:textures/entities/male/cyrus.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:50:41] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_1_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:50:41] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_3_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:50:41] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_8_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:50:41] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_2_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:51:18] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/ronin_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:51:36] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_9_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:53:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/squirrel.png
+[21:53:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for supplementaries:textures/entity_icon/misc/red_merchant.png
+[21:54:33] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=512, y=88, z=1058}. Deathpoints enabled: true. Deathpoint created: true
+[21:54:40] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:54:40] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_4_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:54:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/blue_jay.png
+[21:54:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/ripper.png
+[21:55:45] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:overworld
+[21:55:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/cockatoo/cockatoo_sulphur_crested.png
+[21:55:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for rediscovered:textures/entity_icon/zombie_pigman/zombie_pigman.png
+[21:55:46] [Render thread/INFO] [WaypointStore] Loaded 17 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[21:55:46] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\the_nether. Memory: 4096MB total, 1256MB free 
+[21:56:02] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=37, y=101, z=145}. Deathpoints enabled: true. Deathpoint created: true
+[21:56:06] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:the_nether
+[21:56:07] [Render thread/INFO] [WaypointStore] Loaded 18 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[21:56:07] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\overworld. Memory: 4096MB total, 532MB free 
+[21:56:44] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:overworld
+[21:56:45] [Render thread/INFO] [WaypointStore] Loaded 18 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[21:56:45] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\the_nether. Memory: 4096MB total, 1712MB free 
+[21:57:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for sfl:textures/entity_icon/mimic_nether1.png
+[21:58:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for rediscovered:textures/entity_icon/zombie_pigman/zombie_pigman.png
+[21:58:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for sfl:textures/entity_icon/mimic_nether1.png
+[21:58:32] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=128, y=90, z=164}. Deathpoints enabled: true. Deathpoint created: true
+[21:58:35] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:the_nether
+[21:58:36] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_4_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:58:36] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[21:58:36] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\overworld. Memory: 4096MB total, 1678MB free 
+[21:58:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/ripper.png
+[21:58:40] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:59:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/squirrel.png
+[21:59:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for supplementaries:textures/entity_icon/misc/red_merchant.png
+[21:59:06] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_3_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:59:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for environmental:textures/entity_icon/tapir/tapir.png
+[21:59:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/peafowl/peafowl_indian_female.png
+[21:59:06] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/ronin_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:59:16] [Render thread/WARN] [JMLogger] humancompanions:textures/entities/male/cyrus.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:59:19] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_2_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:59:22] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_1_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:59:27] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_8_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[21:59:30] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:overworld
+[21:59:31] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[21:59:31] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\the_nether. Memory: 4096MB total, 582MB free 
+[22:00:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for creature_compendium:textures/entity_icon/netherite_forge/netherite_forge1.png
+[22:00:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/bone_serpent_head.png
+[22:00:38] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=39, y=23, z=146}. Deathpoints enabled: true. Deathpoint created: true
+[22:00:39] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:the_nether
+[22:00:40] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[22:00:40] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\overworld. Memory: 4096MB total, 1135MB free 
+[22:00:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/firefly/firefly.png
+[22:01:19] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:overworld
+[22:01:19] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[22:01:19] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\the_nether. Memory: 4096MB total, 680MB free 
+[22:02:42] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=38, y=23, z=143}. Deathpoints enabled: true. Deathpoint created: true
+[22:02:45] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:the_nether
+[22:02:46] [Render thread/INFO] [WaypointStore] Loaded 21 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[22:02:46] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\overworld. Memory: 4096MB total, 571MB free 
+[22:02:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[22:03:22] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:overworld
+[22:03:23] [Render thread/INFO] [WaypointStore] Loaded 21 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[22:03:23] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\the_nether. Memory: 4096MB total, 503MB free 
+[22:09:14] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=129, y=89, z=165}. Deathpoints enabled: true. Deathpoint created: true
+[22:09:17] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:the_nether
+[22:09:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for sfl:textures/entity_icon/mimic_birch.png
+[22:09:18] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[22:09:18] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\overworld. Memory: 4096MB total, 1591MB free 
+[22:09:50] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:overworld
+[22:09:51] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[22:09:51] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\the_nether. Memory: 4096MB total, 1830MB free 
+[22:10:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for rediscovered:textures/entity_icon/zombie_pigman/zombie_pigman.png
+[22:12:01] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\minecraft:the_nether
+[22:12:02] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\waypoints
+[22:12:02] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\DJBaka\curseforge\minecraft\Instances\Baka\journeymap\data\mp\hetzersbaka_b211a9be~3092~4321~81cd~3b254d3a6dc1\overworld. Memory: 4096MB total, 793MB free 
+[22:12:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/peafowl/peafowl_indian_female.png
+[22:12:02] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_8_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:12:02] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_2_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:12:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for environmental:textures/entity_icon/tapir/tapir.png
+[22:12:02] [Render thread/WARN] [JMLogger] humancompanions:textures/entities/male/cyrus.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:12:02] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_1_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:12:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for supplementaries:textures/entity_icon/misc/red_merchant.png
+[22:12:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/squirrel.png
+[22:12:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for sfl:textures/entity_icon/mimic_jungle.png
+[22:12:10] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_3_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:12:40] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_4_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:12:40] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:12:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/ripper.png
+[22:12:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/troll/troll_forest.png
+[22:16:57] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/ronin_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:30:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for sfl:textures/entity_icon/mimic_oak.png
+[22:31:12] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:31:17] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_4_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:31:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/ripper.png
+[22:31:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/raccoon.png
+[22:31:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/blue_jay.png
+[22:31:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/canary.png
+[22:31:44] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_5_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:31:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/peafowl/peafowl_indian_female.png
+[22:31:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/grizzly_bear.png
+[22:32:15] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=1048, y=70, z=2801}. Deathpoints enabled: true. Deathpoint created: true
+[22:32:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[22:32:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/catfish_small.png
+[22:32:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/overlay/terrapin_with_overlays.png
+[22:32:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_red_eared.png
+[22:32:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/pixie/pixie_1.png
+[22:32:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/kiwi/kiwi_southern_brown.png
+[22:32:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for environmental:textures/entity_icon/deer/deer_chestnut.png
+[22:33:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/pixie/pixie_0.png
+[22:33:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/snake/snake.png
+[22:33:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/butterfly/monarch.png
+[22:33:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/pixie/pixie_3.png
+[22:33:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[22:33:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/pixie/pixie_4.png
+[22:33:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/firefly/firefly.png
+[22:33:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/butterfly/swallowtail.png
+[22:33:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/butterfly/blue_morpho.png
+[22:33:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/butterfly/cabbage_white.png
+[22:33:44] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_1_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:33:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/cardinal.png
+[22:34:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/pinkfin.png
+[22:34:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bass.png
+[22:35:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/squirrel.png
+[22:35:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for environmental:textures/entity_icon/tapir/tapir.png
+[22:35:26] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_3_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:35:38] [Render thread/WARN] [JMLogger] humancompanions:textures/entities/male/cyrus.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:35:41] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_2_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:35:47] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_8_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:36:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/sparrow.png
+[22:36:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/robin.png
+[22:37:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/triple_twirl_pleco.png
+[22:37:12] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_7_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:37:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/blackcap_snail.png
+[22:37:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/rhino_tetra.png
+[22:37:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/pelican/pelican_american.png
+[22:37:16] [Render thread/WARN] [JMLogger] humancompanions:textures/entities/male/georgios.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:37:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
+[22:37:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/kookaburra/kookaburra_laughing.png
+[22:37:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/boar.png
+[22:37:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/hummingbird/hummingbird_purple.png
+[22:37:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for rediscovered:textures/entity_icon/fish.png
+[22:37:55] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_6_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:38:00] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/ronin_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:42:50] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_1_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:42:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/boar.png
+[22:42:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/hummingbird/hummingbird_purple.png
+[22:42:50] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_6_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:42:50] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/ronin_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:45:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/kookaburra/kookaburra_laughing.png
+[22:45:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/cardinal.png
+[22:45:36] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_7_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:45:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/roadrunner/roadrunner_greater.png
+[22:45:47] [Render thread/WARN] [JMLogger] iceandfire:dragon_texture_amythest_3falsetruefalsetruefalse doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:45:54] [Render thread/WARN] [JMLogger] iceandfire:dragon_texture_amythest_3falsetruefalsefalsefalse doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:46:19] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:46:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/blackcap_snail.png
+[22:46:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/rhino_tetra.png
+[22:46:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/ripper.png
+[22:46:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/triple_twirl_pleco.png
+[22:46:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/pelican/pelican_american.png
+[22:46:31] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_2_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:47:29] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=817, y=71, z=1127}. Deathpoints enabled: true. Deathpoint created: true
+[22:47:35] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_5_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:47:35] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_4_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:47:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/squirrel.png
+[22:47:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for environmental:textures/entity_icon/tapir/tapir.png
+[22:47:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/peafowl/peafowl_indian_female.png
+[22:47:55] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_3_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:48:01] [Render thread/WARN] [JMLogger] humancompanions:textures/entities/male/cyrus.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:48:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for sfl:textures/entity_icon/mimic_birch.png
+[22:48:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for sfl:textures/entity_icon/mimic_acacia.png
+[22:48:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/robin.png
+[22:48:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/sparrow.png
+[22:48:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for rediscovered:textures/entity_icon/fish.png
+[22:48:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bass.png
+[22:48:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_green.png
+[22:48:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_black.png
+[22:49:03] [Render thread/WARN] [JMLogger] iceandfire:dragon_texture_amythest_3falsetruefalsefalsetrue doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:49:35] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=771, y=73, z=1066}. Deathpoints enabled: true. Deathpoint created: true
+[22:50:03] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=638, y=80, z=1074}. Deathpoints enabled: true. Deathpoint created: true
+[22:50:45] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/forest_bandit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:51:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/troll/troll_mountain.png
+[22:51:54] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[22:51:59] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[22:52:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/hummingbird/hummingbird_green.png
+[22:52:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/hummingbird/hummingbird_red.png
+[22:52:21] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=935, y=107, z=1152}. Deathpoints enabled: true. Deathpoint created: true
+[22:52:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/robin.png
+[22:52:51] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_3_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:52:51] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:52:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/blackcap_snail.png
+[22:52:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bass.png
+[22:52:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/sparrow.png
+[22:52:55] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_1_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:52:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/pelican/pelican_american.png
+[22:52:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/triple_twirl_pleco.png
+[22:52:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/rhino_tetra.png
+[22:52:59] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/kappa.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:53:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/ripper.png
+[22:53:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_green.png
+[22:53:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
+[22:53:35] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/ronin_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:53:41] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_7_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:53:41] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_6_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:53:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/roadrunner/roadrunner_greater.png
+[22:53:41] [Render thread/WARN] [JMLogger] iceandfire:dragon_texture_amythest_3falsetruefalsefalsefalse doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:53:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/hummingbird/hummingbird_green.png
+[22:53:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/hummingbird/hummingbird_purple.png
+[22:53:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/hummingbird/hummingbird_red.png
+[22:53:50] [Render thread/WARN] [JMLogger] iceandfire:dragon_texture_amythest_3falsetruefalsetruefalse doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:53:53] [Render thread/WARN] [JMLogger] iceandfire:dragon_texture_amythest_3falsetruefalsetruetrue doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:53:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/troll/troll_mountain.png
+[22:54:46] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=939, y=109, z=1133}. Deathpoints enabled: true. Deathpoint created: true
+[22:54:52] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_5_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:54:52] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_4_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:55:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/squirrel.png
+[22:55:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/peafowl/peafowl_indian_female.png
+[22:55:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_black.png
+[22:55:41] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_2_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:55:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/kookaburra/kookaburra_laughing.png
+[22:56:07] [Render thread/WARN] [JMLogger] iceandfire:dragon_texture_amythest_3falsetruefalsefalsetrue doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:57:13] [Render thread/INFO] [DeathPointHandler] DJBaka died at BlockPos{x=897, y=115, z=1129}. Deathpoints enabled: true. Deathpoint created: true
+[22:57:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for environmental:textures/entity_icon/tapir/tapir.png
+[22:57:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/overlay/terrapin_with_overlays.png
+[22:57:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/terrapin/terrapin_brown.png
+[22:59:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/rhino_tetra.png
+[22:59:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/blackcap_snail.png
+[22:59:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/sparrow.png
+[22:59:56] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_3_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:59:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/robin.png
+[22:59:56] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/kappa.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:59:56] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/ronin_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[22:59:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/pelican/pelican_american.png
+[22:59:59] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[23:00:08] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_2_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[23:00:13] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_1_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[23:00:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/triple_twirl_pleco.png
+[23:00:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/squirrel.png
+[23:00:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/peafowl/peafowl_indian_female.png
+[23:00:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for environmental:textures/entity_icon/tapir/tapir.png
+[23:00:39] [Render thread/WARN] [JMLogger] humancompanions:textures/entities/male/cyrus.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[23:02:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for sfl:textures/entity_icon/mimic_dark_oak.png
+[00:16:06] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_8_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:24:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/blue_jay.png
+[00:25:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bass.png
+[00:25:00] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_5_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:25:00] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_4_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:25:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for sfl:textures/entity_icon/mimic_oak.png
+[00:29:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/ripper.png
+[00:29:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/troll/troll_mountain.png
+[00:32:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for iceandfire:textures/entity_icon/troll/troll_mountain.png
+[00:32:15] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_5_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:32:15] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_4_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:33:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for unusualfishmod:textures/entity_icon/ripper.png
+[00:41:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/catfish_medium.png
+[00:42:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/squirrel.png
+[00:42:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for environmental:textures/entity_icon/tapir/tapir.png
+[00:42:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/peafowl/peafowl_indian_female.png
+[00:43:07] [Render thread/WARN] [JMLogger] humancompanions:textures/entities/male/cyrus.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:43:18] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_1_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:43:18] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_3_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:43:24] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_2_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:43:24] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_8_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:46:44] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/ronin_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:52:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for environmental:textures/entity_icon/tapir/tapir.png
+[00:52:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for exoticbirds:textures/entity_icon/peafowl/peafowl_indian_female.png
+[00:52:15] [Render thread/WARN] [JMLogger] humancompanions:textures/entities/male/cyrus.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:52:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/squirrel.png
+[00:52:15] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/ronin_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:52:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for sfl:textures/entity_icon/mimic_spruce.png
+[00:53:57] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_2_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:54:05] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_8_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:54:39] [Render thread/WARN] [JMLogger] blades_of_the_fallen:textures/entities/koi_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:55:19] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_1_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:55:45] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_3_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[00:55:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for naturalist:textures/entity_icon/bird/robin.png
+[00:55:57] [Render thread/WARN] [JMLogger] bloom_boom:textures/entities/new_songbird_4_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/

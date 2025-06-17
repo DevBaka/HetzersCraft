@@ -1,0 +1,22 @@
+{
+  "id": "Zephyr_-3280-111-2783",
+  "name": "Zephyr",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--12447823-waypoint-icon.png",
+  "x": -3280,
+  "y": 111,
+  "z": 2783,
+  "r": 66,
+  "g": 15,
+  "b": 177,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

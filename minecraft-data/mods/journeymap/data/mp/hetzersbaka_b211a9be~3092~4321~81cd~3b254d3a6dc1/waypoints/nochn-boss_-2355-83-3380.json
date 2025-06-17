@@ -1,0 +1,22 @@
+{
+  "id": "nochn-boss_-2355-83-3380",
+  "name": "nochn boss",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--5124236-waypoint-icon.png",
+  "x": -2355,
+  "y": 83,
+  "z": 3380,
+  "r": 177,
+  "g": 207,
+  "b": 116,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Labor_-433-77-69",
+  "name": "Labor",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--8895061-waypoint-icon.png",
+  "x": -433,
+  "y": 77,
+  "z": 69,
+  "r": 120,
+  "g": 69,
+  "b": 171,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,7 @@
+
+[_master_switch_]
+	#In case master-switch is turned off, this exception allows you to still make rice wine and sake (assuming some other mod provides rice).
+	feature_exception_beverages = true
+	#This master-switch lets you disable the entire Rice module - seeds dropping from grass, farming tool and products.
+	module_enabled = true
+
