@@ -1,16 +1,50 @@
 services:
-  forge:
+  mc:
     image: itzg/minecraft-server:latest
-    container_name: forge-server
+    container_name: HetzersCraft-server
+    tty: true
+    stdin_open: true
     ports:
       - "25565:25565"
       - "8123:8123"
+      - "7000:7000"
     environment:
       EULA: "TRUE"
-      VERSION: "1.20.1"
       TYPE: "FORGE"
-      FORGE_VERSION: "47.4.0"   # Forge-Version passend zu 1.20.1
-      MEMORY: "4G"
+      VERSION: "1.20.1"
+      FORGE_VERSION: "47.4.0"
+      MEMORY: "8192M"
+      MAX_PLAYERS: "4"
+      MOTD: "Hetzers Schmuseparadies"
+      DIFFICULTY: "3"
+      SIMULATION_DISTANCE: "8"
+      VIEW_DISTANCE: "8"
+      LEVEL: "HetzersCraft"
+      LEVEL_TYPE: "biomesoplenty"
+      OPS: |-
+        DJBaka
+        Sakatarina
+      ENABLE_WHITELIST: "true"
+      WHITELIST: |-
+        DJBaka
+        Sakatarina
+      JVM_XX_OPTS: "--add-modules=jdk.incubator.vector -XX:+UseG1GC
+        -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200
+        -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC
+        -XX:+AlwaysPreTouch -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4
+        -XX:InitiatingHeapOccupancyPercent=15
+        -XX:G1MixedGCLiveThresholdPercent=90
+        -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32
+        -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
+        -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40
+        -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20"
+      JVM_DD_OPTS: "-Dterminal.jline=false -Dterminal.ansi=true
+        -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true"
+      EXTRA_ARGS: "--nogui"
+      ENABLE_JMX: "true"
+      JMX_HOST: "7000"
+      ENABLE_ROLLING_LOGS: "true"
+      LOG_TIMESTAMP: "true"
     volumes:
-      - ./minecraft-data:/data
+      - "./minecraft-data:/data"
     restart: unless-stopped
