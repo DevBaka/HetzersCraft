@@ -43,5 +43,19 @@ worlds:
     the_end: false
     title: rediscovered_skylands
     height: 384
+-   sealevel: 63
+    nether: false
+    miny: -32
+    name: twilightforest_twilight_forest
+    the_end: false
+    title: twilightforest_twilight_forest
+    height: 288
+-   sealevel: 63
+    nether: false
+    miny: 0
+    name: deeperdarker_otherside
+    the_end: false
+    title: deeperdarker_otherside
+    height: 128
 useSaveFolderAsName: true
 maxWorldHeight: 320
