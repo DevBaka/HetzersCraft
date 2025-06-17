@@ -1,8 +1,13 @@
 %YAML 1.1
 ---
+'31_17_255_207':
+- DJBaka
+- Sakatarina
 2a02:8109:60e:600:d524:5d2e:eaff:b78d:
 - DJBaka
 2a02:8109:60e:600:5874:b233:1d40:cad6:
 - DJBaka
+'146_70_117_178':
+- Sakatarina
 2a02:8109:60e:600:a13a:9da3:b33e:744f:
 - DJBaka

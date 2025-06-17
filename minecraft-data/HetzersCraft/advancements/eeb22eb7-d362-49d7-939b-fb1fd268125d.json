@@ -61,6 +61,7 @@
   },
   "regions_unexplored:regions_explored": {
     "criteria": {
+      "dry_bushland": "2025-06-16 16:19:19 +0000",
       "sparse_rainforest": "2025-06-16 07:34:16 +0000",
       "prismachasm": "2025-06-16 07:37:17 +0000",
       "ancient_delta": "2025-06-16 07:35:10 +0000",
@@ -84,6 +85,7 @@
   },
   "regions_unexplored:pioneer": {
     "criteria": {
+      "dry_bushland": "2025-06-16 16:19:19 +0000",
       "sparse_rainforest": "2025-06-16 07:34:16 +0000",
       "rocky_reef": "2025-06-02 08:33:31 +0000",
       "grassy_beach": "2025-06-02 08:54:43 +0000",
@@ -1707,6 +1709,7 @@
     "criteria": {
       "atmospheric:atmospheric:sparse_rainforest": "2025-06-02 10:31:45 +0000",
       "atmospheric:atmospheric:flourishing_dunes": "2025-06-16 07:38:02 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-06-17 13:29:53 +0000",
       "minecraft:frozen_river": "2025-06-13 14:07:42 +0000",
       "minecraft:cherry_grove": "2025-06-13 13:15:08 +0000",
       "minecraft:sunflower_plains": "2025-06-13 13:19:52 +0000",
@@ -1715,10 +1718,12 @@
       "minecraft:badlands": "2025-06-07 05:20:20 +0000",
       "minecraft:savanna_plateau": "2025-06-02 10:47:51 +0000",
       "minecraft:beach": "2025-06-02 08:32:33 +0000",
+      "environmental:environmental:old_growth_pine_barrens": "2025-06-17 15:12:37 +0000",
       "minecraft:sparse_jungle": "2025-06-02 09:38:46 +0000",
       "minecraft:lukewarm_ocean": "2025-06-01 17:47:17 +0000",
       "minecraft:river": "2025-06-02 08:55:17 +0000",
       "minecraft:snowy_plains": "2025-06-13 14:07:47 +0000",
+      "minecraft:stony_shore": "2025-06-16 16:23:43 +0000",
       "minecraft:dripstone_caves": "2025-06-13 13:36:07 +0000",
       "minecraft:snowy_taiga": "2025-06-14 11:51:17 +0000",
       "atmospheric:atmospheric:spiny_thicket": "2025-06-16 07:34:49 +0000",
@@ -1726,11 +1731,15 @@
       "atmospheric:atmospheric:rainforest": "2025-06-02 08:56:48 +0000",
       "minecraft:cold_ocean": "2025-06-13 14:03:29 +0000",
       "minecraft:forest": "2025-06-02 10:30:25 +0000",
+      "atmospheric:atmospheric:sparse_rainforest_basin": "2025-06-16 16:22:39 +0000",
+      "minecraft:lush_caves": "2025-06-17 12:46:07 +0000",
       "environmental:environmental:pine_barrens": "2025-06-13 13:35:00 +0000",
       "autumnity:autumnity:maple_forest": "2025-06-13 13:18:15 +0000",
       "atmospheric:atmospheric:scrubland": "2025-06-01 17:47:39 +0000",
       "minecraft:ocean": "2025-06-13 13:07:28 +0000",
+      "minecraft:jungle": "2025-06-16 16:20:44 +0000",
       "minecraft:flower_forest": "2025-06-13 13:05:06 +0000",
+      "minecraft:old_growth_birch_forest": "2025-06-17 13:25:06 +0000",
       "atmospheric:atmospheric:dunes": "2025-06-01 17:47:31 +0000",
       "minecraft:deep_dark": "2025-06-16 07:13:41 +0000",
       "minecraft:meadow": "2025-06-13 13:04:48 +0000",
@@ -2180,6 +2189,7 @@
     "criteria": {
       "bamboo_campfire_1": "2025-06-02 09:13:33 +0000",
       "red_sand_temple_medium_1": "2025-06-12 05:35:33 +0000",
+      "spruce_house_large_1": "2025-06-17 13:30:42 +0000",
       "oak_house_small_3": "2025-06-13 13:38:20 +0000",
       "oak_hut_1": "2025-06-02 09:39:01 +0000",
       "oak_house_medium_1": "2025-06-02 09:20:46 +0000",
@@ -4771,13 +4781,17 @@
   "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
     "criteria": {
       "biomeswevegone:redwood_thicket": "2025-06-13 22:24:54 +0000",
+      "biomeswevegone:araucaria_savanna": "2025-06-16 16:24:24 +0000",
+      "biomeswevegone:enchanted_tangle": "2025-06-17 13:22:26 +0000",
       "biomeswevegone:zelkova_forest": "2025-06-13 13:35:45 +0000",
       "biomeswevegone:firecracker_chaparral": "2025-06-13 13:16:43 +0000",
+      "biomeswevegone:lush_stacks": "2025-06-16 16:23:35 +0000",
       "biomeswevegone:maple_taiga": "2025-06-13 13:30:42 +0000",
       "biomeswevegone:ironwood_gour": "2025-06-13 22:23:50 +0000",
       "biomeswevegone:amaranth_grassland": "2025-06-13 22:22:45 +0000",
       "biomeswevegone:aspen_boreal": "2025-06-13 13:32:15 +0000",
-      "biomeswevegone:allium_shrubland": "2025-06-13 13:30:34 +0000"
+      "biomeswevegone:allium_shrubland": "2025-06-13 13:30:34 +0000",
+      "biomeswevegone:rainbow_beach": "2025-06-16 16:24:04 +0000"
     },
     "done": false
   },
@@ -5767,6 +5781,12 @@
     },
     "done": true
   },
+  "deeperdarker:main/root": {
+    "criteria": {
+      "deep_dark": "2025-06-16 07:13:41 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:spelunker": {
     "criteria": {
       "redstone_caves": "2025-06-16 07:28:24 +0000",
@@ -5776,9 +5796,1692 @@
     },
     "done": false
   },
-  "deeperdarker:main/root": {
+  "spartanweaponry:recipes/iron_javelin": {
     "criteria": {
-      "deep_dark": "2025-06-16 07:13:41 +0000"
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_glaive": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_longsword": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_battle_hammer": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_rapier": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_battleaxe": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_boomerang": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_battleaxe": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_spear": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_rapier": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/iron_knife": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_saber": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_scythe": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_quarterstaff": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_boomerang": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_katana": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_tomahawk": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_glaive": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_lance": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/handle_from_string": {
+    "criteria": {
+      "has_string": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_throwing_knife": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_lance": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_longbow": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_scythe": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "crystalcraft_unlimited_java:recipe_unlock": {
+    "criteria": {
+      "recipe_unlock_0": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/steak_and_potatoes": {
+    "criteria": {
+      "has_baked_potato": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_katana": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_throwing_knife": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_heavy_crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "simplymore:root": {
+    "criteria": {
+      "requirement": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_warhammer": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cooking_pot": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_parrying_dagger": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_dagger": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_tomahawk": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_spear": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_battle_hammer": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_saber": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_greatsword": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_halberd": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_flanged_mace": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_pike": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_parrying_dagger": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_longsword": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_quarterstaff": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/iron_greatsword": {
+    "criteria": {
+      "has_iron_ingot": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_flanged_mace": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_javelin": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_pike": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_warhammer": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_dagger": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/stone_halberd": {
+    "criteria": {
+      "has_cobblestone": "2025-06-16 16:18:39 +0000"
+    },
+    "done": true
+  },
+  "simplyswords:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2025-06-16 16:18:43 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2025-06-16 16:19:19 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/root": {
+    "criteria": {
+      "useitem": "2025-06-16 16:35:48 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/explosive_charge": {
+    "criteria": {
+      "has_gunpowder": "2025-06-16 17:07:23 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-06-17 13:00:14 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-06-17 13:00:14 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough": {
+    "criteria": {
+      "has_wheat": "2025-06-17 13:00:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-06-17 13:00:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "potato": "2025-06-17 13:02:17 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/food/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2025-06-17 13:20:27 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_club": {
+    "criteria": {
+      "has_wood_log": "2025-06-17 13:34:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-06-17 13:34:52 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/spruce_branch_from_spruce_log": {
+    "criteria": {
+      "has_log": "2025-06-17 13:34:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-06-17 13:34:52 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/pole_from_wool": {
+    "criteria": {
+      "has_stick": "2025-06-17 13:36:35 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/handle_from_wool": {
+    "criteria": {
+      "has_stick": "2025-06-17 13:36:35 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/pole_from_string": {
+    "criteria": {
+      "has_stick": "2025-06-17 13:36:35 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/pole_from_leather": {
+    "criteria": {
+      "has_stick": "2025-06-17 13:36:35 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/handle_from_leather": {
+    "criteria": {
+      "has_stick": "2025-06-17 13:36:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2025-06-17 13:36:35 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/simple_handle": {
+    "criteria": {
+      "has_stick": "2025-06-17 13:36:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cutting_board": {
+    "criteria": {
+      "has_stick": "2025-06-17 13:36:35 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/spruce_shrub": {
+    "criteria": {
+      "has_spruce_sapling": "2025-06-17 13:39:57 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/zelkova_wood": {
+    "criteria": {
+      "has_log": "2025-06-17 13:43:31 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/building_blocks/zelkova_planks": {
+    "criteria": {
+      "has_log": "2025-06-17 13:43:31 +0000"
+    },
+    "done": true
+  },
+  "crystalcraft_unlimited_java:gotta_mine_em_all": {
+    "criteria": {
+      "gotta_mine_em_all_9": "2025-06-17 17:23:14 +0000",
+      "gotta_mine_em_all_7": "2025-06-17 17:30:57 +0000",
+      "gotta_mine_em_all_8": "2025-06-17 17:25:06 +0000",
+      "gotta_mine_em_all_5": "2025-06-17 17:18:40 +0000",
+      "gotta_mine_em_all_199": "2025-06-17 17:21:55 +0000",
+      "gotta_mine_em_all_3": "2025-06-17 15:27:01 +0000",
+      "gotta_mine_em_all_4": "2025-06-17 15:29:50 +0000",
+      "gotta_mine_em_all_197": "2025-06-17 17:23:19 +0000",
+      "gotta_mine_em_all_1": "2025-06-17 17:17:25 +0000",
+      "gotta_mine_em_all_2": "2025-06-17 17:17:39 +0000",
+      "gotta_mine_em_all_100": "2025-06-17 15:28:28 +0000",
+      "gotta_mine_em_all_200": "2025-06-17 17:18:20 +0000",
+      "gotta_mine_em_all_69": "2025-06-17 17:22:34 +0000",
+      "gotta_mine_em_all_60": "2025-06-17 15:28:36 +0000",
+      "gotta_mine_em_all_64": "2025-06-17 17:16:02 +0000",
+      "gotta_mine_em_all_144": "2025-06-17 15:25:54 +0000",
+      "gotta_mine_em_all_142": "2025-06-17 15:25:32 +0000",
+      "gotta_mine_em_all_140": "2025-06-17 17:17:38 +0000",
+      "gotta_mine_em_all_59": "2025-06-17 15:24:57 +0000",
+      "gotta_mine_em_all_58": "2025-06-17 17:16:13 +0000",
+      "gotta_mine_em_all_50": "2025-06-17 17:18:39 +0000",
+      "gotta_mine_em_all_55": "2025-06-17 17:24:40 +0000",
+      "gotta_mine_em_all_54": "2025-06-17 15:25:03 +0000",
+      "gotta_mine_em_all_138": "2025-06-17 17:16:10 +0000",
+      "gotta_mine_em_all_136": "2025-06-17 17:19:56 +0000",
+      "gotta_mine_em_all_81": "2025-06-17 17:15:43 +0000",
+      "gotta_mine_em_all_117": "2025-06-17 15:28:04 +0000",
+      "gotta_mine_em_all_110": "2025-06-17 15:25:53 +0000",
+      "gotta_mine_em_all_192": "2025-06-17 17:23:16 +0000",
+      "gotta_mine_em_all_193": "2025-06-17 15:24:49 +0000",
+      "gotta_mine_em_all_24": "2025-06-17 15:26:44 +0000",
+      "gotta_mine_em_all_23": "2025-06-17 15:25:50 +0000",
+      "gotta_mine_em_all_22": "2025-06-17 17:17:21 +0000",
+      "gotta_mine_em_all_21": "2025-06-17 15:29:40 +0000",
+      "gotta_mine_em_all_188": "2025-06-17 15:26:30 +0000",
+      "gotta_mine_em_all_181": "2025-06-17 13:48:00 +0000",
+      "gotta_mine_em_all_13": "2025-06-17 15:24:22 +0000",
+      "gotta_mine_em_all_12": "2025-06-17 15:26:31 +0000",
+      "gotta_mine_em_all_15": "2025-06-17 17:21:52 +0000",
+      "gotta_mine_em_all_14": "2025-06-17 17:18:36 +0000",
+      "gotta_mine_em_all_17": "2025-06-17 17:16:06 +0000",
+      "gotta_mine_em_all_16": "2025-06-17 17:19:04 +0000",
+      "gotta_mine_em_all_19": "2025-06-17 17:16:25 +0000",
+      "gotta_mine_em_all_48": "2025-06-17 17:18:24 +0000",
+      "gotta_mine_em_all_49": "2025-06-17 17:14:39 +0000",
+      "gotta_mine_em_all_40": "2025-06-17 15:25:36 +0000",
+      "gotta_mine_em_all_165": "2025-06-17 17:17:34 +0000",
+      "gotta_mine_em_all_162": "2025-06-17 17:14:06 +0000",
+      "gotta_mine_em_all_35": "2025-06-17 15:27:09 +0000",
+      "gotta_mine_em_all_34": "2025-06-17 17:17:30 +0000"
+    },
+    "done": false
+  },
+  "ribbits:recipes/mossy_oak_planks_slab_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_red_rock_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "ribbits:recipes/mossy_oak_planks_fence_gate_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "ribbits:recipes/mossy_oak_planks_fence_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "ribbits:recipes/mossy_oak_planks_stairs_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mossy_black_sand": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/surface_moss": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "ribbits:recipes/mossy_oak_planks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_dacite_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_white_dacite_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-06-17 13:50:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-06-17 13:51:15 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_saber": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_javelin": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_quarterstaff": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_greatsword": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_throwing_knife": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_flanged_mace": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_lance": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_longsword": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "rediscovered:recipes/decorations/spruce_chair": {
+    "criteria": {
+      "has_spruce_planks": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_spruce": {
+    "criteria": {
+      "has_item": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_katana": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_battleaxe": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_battle_hammer": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_dagger": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_tomahawk": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_scythe": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_spear": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_spruce": {
+    "criteria": {
+      "has_the_recipe": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "rediscovered:recipes/decorations/spruce_table": {
+    "criteria": {
+      "has_spruce_planks": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_warhammer": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_parrying_dagger": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_rapier": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_boomerang": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_longbow": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_glaive": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_pike": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_halberd": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "growthcraft_apiary:recipes/decorations/bee_box_spruce": {
+    "criteria": {
+      "has_item": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_heavy_crossbow": {
+    "criteria": {
+      "has_wood": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-17 13:53:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/small_arrow_quiver": {
+    "criteria": {
+      "has_arrow": "2025-06-17 14:11:44 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/dark_oak_branch_from_dark_oak_log": {
+    "criteria": {
+      "has_log": "2025-06-17 14:21:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-06-17 14:21:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-06-17 14:21:55 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-06-17 14:22:05 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2025-06-17 15:25:31 +0000"
+    },
+    "done": true
+  },
+  "crystalcraft_unlimited_java:crystal_gems": {
+    "criteria": {
+      "crystal_gems_1": "2025-06-17 15:25:36 +0000",
+      "crystal_gems_4": "2025-06-17 17:21:18 +0000",
+      "crystal_gems_3": "2025-06-17 15:29:50 +0000"
+    },
+    "done": false
+  },
+  "crystalcraft_unlimited_java:the_colours_of_the_rainbow": {
+    "criteria": {
+      "the_colours_of_the_rainbow_0": "2025-06-17 15:27:09 +0000"
+    },
+    "done": true
+  },
+  "crystalcraft_unlimited_java:iron_man": {
+    "criteria": {
+      "iron_man_28": "2025-06-17 15:28:04 +0000"
+    },
+    "done": false
+  },
+  "spartanweaponry:recipes/silver_javelin": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_spear": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_warhammer": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_glaive": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_scythe": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_longsword": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_battle_hammer": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_boomerang": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_heavy_crossbow": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_halberd": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_rapier": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_katana": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_pike": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_saber": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_battleaxe": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_dagger": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_longbow": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_greatsword": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_tomahawk": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_parrying_dagger": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_flanged_mace": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_quarterstaff": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_throwing_knife": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/silver_lance": {
+    "criteria": {
+      "has_silver_ingot": "2025-06-17 15:40:24 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/silver_axe": {
+    "criteria": {
+      "has_the_recipe": "2025-06-17 15:40:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "rediscovered:recipes/combat/quiver": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/cestus": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/leather_longbow": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/blindfold": {
+    "criteria": {
+      "has_item": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/leather_heavy_crossbow": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/quiver_compartment": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/upgrade_base": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "environmental:recipes/food/cooked_venison": {
+    "criteria": {
+      "has_venison": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/backpack": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "environmental:recipes/food/cooked_venison_from_smoking": {
+    "criteria": {
+      "has_venison": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "environmental:recipes/food/cooked_venison_from_campfire_cooking": {
+    "criteria": {
+      "has_venison": "2025-06-17 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-06-17 15:55:18 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-06-17 15:55:18 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2025-06-17 16:01:51 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_rapier": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/reinforced_paper_diamond": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_halberd": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_katana": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_parrying_dagger": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_quarterstaff": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/huge_quiver_brace": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_warhammer": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_lance": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/transportation/paraglider_iron": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-06-17 17:15:20 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/reinforced_paper": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_flanged_mace": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_pike": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/transportation/paraglider_gold": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_halberd": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_scythe": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_glaive": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_longbow": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/transportation/paraglider_netherite": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/medium_quiver_brace": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2025-06-17 16:51:10 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbase:recipes/rftoolsbase/crafting_card": {
+    "criteria": {
+      "crafter": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-06-17 17:15:20 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_longbow": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_dagger": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2025-06-17 16:51:10 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_heavy_crossbow": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "crystalcraft_unlimited_java:you_chose_the_red_one": {
+    "criteria": {
+      "you_chose_the_red_one_0": "2025-06-17 17:21:55 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_battleaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2025-06-17 16:50:31 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_saber": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/large_quiver_brace": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_throwing_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_boomerang": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_saber": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_scythe": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_quarterstaff": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/reinforced_paper_gold": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/transportation/paraglider_wood": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_parrying_dagger": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_boomerang": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/reinforced_paper_iron": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_rapier": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "crystalcraft_unlimited_java:the_strongest_stick": {
+    "criteria": {
+      "the_strongest_stick_0": "2025-06-17 17:31:03 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_dagger": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2025-06-17 16:51:14 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_tomahawk": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_javelin": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "crystalcraft_unlimited_java:rose_quartz_or_pink_diamond": {
+    "criteria": {
+      "rose_quartz_or_pink_diamond_0": "2025-06-17 17:18:24 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_battleaxe": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_battle_hammer": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_pike": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2025-06-17 16:50:41 +0000"
+    },
+    "done": true
+  },
+  "growthcraft_milk:recipes/misc/pancheon": {
+    "criteria": {
+      "has_item": "2025-06-17 17:15:20 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-06-17 16:51:10 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:greatsword": {
+    "criteria": {
+      "has_greatsword": "2025-06-17 16:57:39 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_longsword": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_greatsword": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_lance": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_longsword": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:root": {
+    "criteria": {
+      "has_handle": "2025-06-17 16:57:15 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_warhammer": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/copper_upgrade": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "celestisynth:recipes/decorations/starlit_factory_update_fix": {
+    "criteria": {
+      "has_item": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_battle_hammer": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_throwing_knife": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/nether_upgrade": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_flanged_mace": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_glaive": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_spear": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/transportation/paraglider_diamond": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_spear": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_greatsword": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_javelin": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_heavy_crossbow": {
+    "criteria": {
+      "has_diamond": "2025-06-17 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_katana": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_tomahawk": {
+    "criteria": {
+      "has_gold_ingot": "2025-06-17 16:49:57 +0000"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/reinforced_paper_netherite": {
+    "criteria": {
+      "has_crafting_table": "2025-06-17 16:47:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-06-17 16:47:42 +0000"
     },
     "done": true
   },
