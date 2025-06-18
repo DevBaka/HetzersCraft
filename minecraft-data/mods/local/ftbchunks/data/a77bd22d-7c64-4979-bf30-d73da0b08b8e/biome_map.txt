@@ -1,8 +1,0 @@
-#6DD regions_unexplored:grassy_beach
-#79A minecraft:lukewarm_ocean
-#054 atmospheric:rainforest
-#3E7 regions_unexplored:rainforest
-#6CE atmospheric:rainforest_basin
-#4AB regions_unexplored:redwoods
-#5FF minecraft:river
-#7EA regions_unexplored:sparse_redwoods

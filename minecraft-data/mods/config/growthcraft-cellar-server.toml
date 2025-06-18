@@ -1,5 +1,0 @@
-
-[brewing]
-	#Do we allow rice and corn as adjunct grains
-	allow_additional_adjunct_grains = false
-
