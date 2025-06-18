@@ -1,1 +1,14 @@
-[{"name":"DJBaka","uuid":"b30c08d4-76c4-43b1-a141-98a4082f99ab","level":4,"bypassesPlayerLimit":false},{"name":"Sakatarina","uuid":"eeb22eb7-d362-49d7-939b-fb1fd268125d","level":4,"bypassesPlayerLimit":false}]
+[
+  {
+    "uuid": "b30c08d4-76c4-43b1-a141-98a4082f99ab",
+    "name": "DJBaka",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "eeb22eb7-d362-49d7-939b-fb1fd268125d",
+    "name": "Sakatarina",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
