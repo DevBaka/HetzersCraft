@@ -1,6 +1,0 @@
-
-["General settings"]
-	#Configure General Mimic settings
-	#Dimensions in which the mimic's can't spawn
-	dimensionBlacklist = [""]
-
