@@ -1,0 +1,78 @@
+{
+	"level_seeds": [
+		{
+			"dim": "twilightforest:twilight_forest",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "blue_skies:everdawn",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "deeperdarker:otherside",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "rediscovered:skylands",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "blue_skies:everbright",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "bloodmagic:dungeon",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": 3370395437168654000
+		}
+	],
+	"structure_seeds": [
+		{
+			"dim": "twilightforest:twilight_forest",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "blue_skies:everdawn",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "deeperdarker:otherside",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "rediscovered:skylands",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "blue_skies:everbright",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "bloodmagic:dungeon",
+			"seed": 3370395437168654000
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": 3370395437168654000
+		}
+	]
+}

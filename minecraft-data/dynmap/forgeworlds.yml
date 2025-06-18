@@ -57,5 +57,19 @@ worlds:
     the_end: false
     title: deeperdarker_otherside
     height: 128
+-   sealevel: 63
+    nether: false
+    miny: 0
+    name: blue_skies_everdawn
+    the_end: false
+    title: blue_skies_everdawn
+    height: 384
+-   sealevel: 63
+    nether: false
+    miny: 0
+    name: blue_skies_everbright
+    the_end: false
+    title: blue_skies_everbright
+    height: 384
 useSaveFolderAsName: true
 maxWorldHeight: 320

@@ -1,0 +1,35 @@
+{
+	id: "9a52b332-f6f8-43d9-9136-5c2d75ac6ebd"
+	type: "party"
+	owner: "b30c08d4-76c4-43b1-a141-98a4082f99ab"
+	ranks: {
+		eeb22eb7-d362-49d7-939b-fb1fd268125d: "officer"
+		b30c08d4-76c4-43b1-a141-98a4082f99ab: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Hetzers"
+		"ftbteams:description": ""
+		"ftbteams:color": "#596FFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:allow_pvp": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1750187449384L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"DJBaka\"}]}" }
+		{ from: "b30c08d4-76c4-43b1-a141-98a4082f99ab", date: 1750187449407L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Sakatarina\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1750187453528L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Sakatarina\"}]}" }
+		{ from: "b30c08d4-76c4-43b1-a141-98a4082f99ab", date: 1750187469380L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"color\":\"yellow\",\"text\":\"Sakatarina\"}]}" }
+	]
+	extra: { }
+}

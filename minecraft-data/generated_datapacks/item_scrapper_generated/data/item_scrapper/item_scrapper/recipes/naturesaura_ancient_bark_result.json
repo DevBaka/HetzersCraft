@@ -1,0 +1,19 @@
+{
+  "naturesaura:ancient_bark": [
+    {
+      "explosionPower": 0.0,
+      "roundingType": "STANDARD",
+      "requiredHits": 3.0,
+      "explosionChance": 0.0,
+      "lootable": {
+        "amountForMaxReturn": 1,
+        "autoGenerateFromRecipe": true,
+        "recipeId": "naturesaura:ancient_bark",
+        "returnAmount": {
+          "min": 30.0,
+          "max": 70.0
+        }
+      }
+    }
+  ]
+}
