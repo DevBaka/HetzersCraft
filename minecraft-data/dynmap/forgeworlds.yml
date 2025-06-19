@@ -14,7 +14,7 @@ worlds:
     name: DIM1
     the_end: true
     title: DIM1
-    height: 256
+    height: 384
 -   sealevel: 63
     nether: true
     miny: 0
@@ -71,5 +71,26 @@ worlds:
     the_end: false
     title: blue_skies_everbright
     height: 384
+-   sealevel: 63
+    nether: false
+    miny: 0
+    name: mahoutsukai_reality_marble
+    the_end: false
+    title: mahoutsukai_reality_marble
+    height: 256
+-   sealevel: 63
+    nether: false
+    miny: 0
+    name: aether_the_aether
+    the_end: false
+    title: aether_the_aether
+    height: 256
+-   sealevel: 63
+    nether: false
+    miny: 0
+    name: undergarden_undergarden
+    the_end: false
+    title: undergarden_undergarden
+    height: 128
 useSaveFolderAsName: true
 maxWorldHeight: 320
